@@ -2,17 +2,22 @@
 transformarlos a enteros (parseInt) y Sumarlos.
 Mostar el resulto por medio de "ALERT"*/
 function sumar()
-{
-	var numero1;
-	var numero2;
+{   //declarar siempre las variables arriba y despues debajo las detallo.
+	var numeroUno;
+	var numeroDos;
 	var resultado;
-
-	numero1 = paeceint(document.getElementById('numeroUno').value;
-	nuemro2 = parceint(document.getElementById('numeroDos').value;
 	
-    resultado = 
+	n1 = document.getElementById('numeroUno').value;
+	n2 = document.getElementById('numeroDos').value;
+	n1 = parseInt(numeroUno);
+	n2 = parseInt(numeroDos);
+	
+  	resultado=numeroUno+numeroDos;
 
-		alert("el resultado es: "+resultado);
+		alert(resultado);
+	
+
+
 
 }
 
