@@ -12,4 +12,16 @@ function SacarResto()
 	alert(resultado)
 	*/
 	
+	var numeDividendo;
+	var numeDivisor;
+
+	numeDividendo=document.getElementById('numeroDividendo').value;
+	numeDivisor=document.getElementById('numeroDivisor').value;
+
+	numeDividendo=parseInt(numeDividendo);
+	numeDivisor=parseInt(numeDivisor);
+
+	alert("el resto es: " +numeDivisor%numeDividendo);
+
+
 }
