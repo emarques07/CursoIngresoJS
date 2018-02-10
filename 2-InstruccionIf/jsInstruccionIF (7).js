@@ -6,11 +6,11 @@ function Mostrar()
 	var estadocivil
 
 		edad=document.getElementById('edad').value;
-		estadocivil=document.getElementById('estadoCivil').value=Soltero;
-		if(edad<19)
+		estadocivil=document.getElementById('estadoCivil').value;
+		if(edad<19 && (!(estadocivil=="Soltero")))
 		{
 			alert("Es muy pequeño para NO ser soltero");
 		}
-
+		
 
 }//FIN DE LA FUNCIÓN
