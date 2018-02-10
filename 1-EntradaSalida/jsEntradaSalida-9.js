@@ -18,6 +18,8 @@ function MostrarAumento()
 	var sueldoConAumento
 
 	sueldo=document.getElementById('sueldo').value;
+	sueldo=parseInt(sueldo);
+	sueldoConAumento=parseInt(sueldoConAumento);
 	sueldoConAumento=sueldo*1.1;
 	document.getElementById('resultado').value=sueldoConAumento;
 }
