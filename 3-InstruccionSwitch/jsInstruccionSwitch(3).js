@@ -1,9 +1,15 @@
 function Mostrar()
 {
-//tomo la edad  
-var mesDelAño = document.getElementById('mes').value;
+	//tomo la edad  
 
-//alert (mesDelAño);
+	var mesDelAño = document.getElementById('mes').value;
+
+	switch(mesDelAño)
+		{
+			
+		}	
+
+	//alert (mesDelAño);
 	
 	
 
