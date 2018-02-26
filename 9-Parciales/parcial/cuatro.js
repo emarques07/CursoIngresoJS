@@ -13,16 +13,22 @@ function Mostrar()
 	if(numUno == numDos)
 		{
 			resultado=(numUno*numDos);
-			alert(resultado);
+			
 		}
-		else if(numUno>numDos);
+		else
 		{
-			resultado=(numUno-numDos);
-			alert(resultado);
+			if(numUno > numDos)
+			{
+				resultado=(numUno-numDos);
+			}
+			else
+			{
+				resultado=(numUno+numDos)
+			}
+
+			
 		}
-		else if(numUno<numDos)
-		{
-			resultado=(numUno+numDos);
-			alert(resultado);
-		}
-}
+
+	document.write("El resultado es: "+resultado);
+	
+}	
