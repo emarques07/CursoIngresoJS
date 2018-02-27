@@ -1,19 +1,17 @@
 function Mostrar()
 {
-var precio1, precio2, precio3;
-var resultado;
-var promedio;
+	var largo;
+	var ancho;
+	var resultado;
 
-precio1=document.getElementById('precioUno').value;
-precio2=document.getElementById('precioDos').value;
-precio3=document.getElementById('precioTres').value;
+	largo = document.getElementById('alrgo').value;
+	ancho = document.getElementById('ancho').value;
 
-precio1=parseInt(precio1);
-precio2=parseInt(precio2);
-precio3=parseInt(precio3);
+	largo = parseInt(largo);
+	ancho = parseInt(ancho);
 
-resultado=precio1+precio2+precio3;
-promedio=resultado/3;
+	resultado = largo + ancho;
 
-alert("la suma de los precios es: " + resultado+ " El promedio es " +promedio);
-} 
+	alert("Cantidad necesaria de alambre: "+ resultado*6);
+
+}
